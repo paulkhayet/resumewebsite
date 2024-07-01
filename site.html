@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Resume</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="tabs">
+        <button class="tab-link active" onclick="openTab(event, 'resume')">Resume</button>
+        <button class="tab-link" onclick="openTab(event, 'how-to')">How I hosted this</button>
+    </div>
+
+    <div id="resume" class="tab-content">
+        <header>
+            <h1>John Doe</h1>
+            <p>Email: johndoe@example.com</p>
+            <p>Address: 1234 Elm Street, Hometown, Country</p>
+        </header>
+
+        <section>
+            <h2>Education</h2>
+            <div class="section-content">
+                <h3>University of Example</h3>
+                <p>Major: Computer Science</p>
+                <p>Dates: 2016 - 2020</p>
+            </div>
+        </section>
+
+        <section>
+            <h2>Work Experience</h2>
+            <div class="section-content">
+                <h3>Software Engineer</h3>
+                <p>Company: Tech Solutions</p>
+                <p>Timeframe: June 2020 - Present</p>
+                <ul>
+                    <li>Developed and maintained web applications.</li>
+                    <li>Collaborated with cross-functional teams.</li>
+                    <li>Implemented new features based on user feedback.</li>
+                </ul>
+            </div>
+            <div class="section-content">
+                <h3>Intern</h3>
+                <p>Company: Web Innovators</p>
+                <p>Timeframe: June 2019 - August 2019</p>
+                <ul>
+                    <li>Assisted in front-end development projects.</li>
+                    <li>Participated in code reviews and team meetings.</li>
+                    <li>Conducted research on new web technologies.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <h2>Clubs/Teams</h2>
+            <div class="section-content">
+                <h3>Programming Club</h3>
+                <p>Role: President</p>
+                <p>Timeframe: 2018 - 2020</p>
+                <ul>
+                    <li>Organized weekly coding sessions.</li>
+                    <li>Led the club in inter-college coding competitions.</li>
+                    <li>Facilitated workshops on new programming languages.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <h2>Skills</h2>
+            <div class="section-content">
+                <ul>
+                    <li>JavaScript</li>
+                    <li>Python</li>
+                    <li>HTML & CSS</li>
+                    <li>React</li>
+                    <li>Node.js</li>
+                </ul>
+            </div>
+        </section>
+    </div>
+
+    <div id="how-to" class="tab-content" style="display:none">
+        <h2>How I hosted this</h2>
+        <p>This section explains how the resume is hosted. Add your hosting steps here.</p>
+    </div>
+
+    <script>
+        function openTab(evt, tabName) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tab-content");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tab-link");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+            document.getElementById(tabName).style.display = "block";
+            evt.currentTarget.className += " active";
+        }
+    </script>
+</body>
+</html>
