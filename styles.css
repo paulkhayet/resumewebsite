@@ -112,6 +112,7 @@ header h1 {
     display: none;
     padding: 20px;
     box-sizing: border-box;
+    color: white;
 }
 
 .tab-content.active {
