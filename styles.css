@@ -167,12 +167,12 @@ section h2 {
 @media (max-width: 768px) {
     body {
         flex-direction: column; /* Stack header and content vertically */
-        margin-top: 0px;
     }
 
     header {
         width: 100%;
         margin-top: 0; /* Reset margin */
+        padding-top: 100px;
     }
 
     .tabs {
@@ -183,9 +183,11 @@ section h2 {
 
     .content {
         padding-top: 60px; /* Ensure content starts below the tabs */
+        flex-direction: column;
     }
 
     .tab-content {
         margin-top: 20px; /* Add space above the tab content */
+        flex-direction: column;
     }
 }
