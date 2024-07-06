@@ -1,36 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Paul Khayet Resume</title>
-    <link rel="icon" href="resources/images/Logo.png">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900&display=swap" rel="stylesheet">
-</head>
-<body>
-    <header>
-        <div class="profile-container">
-            <img src="resources/images/SmallProfile.jpeg" alt="Profile Image" class="profile-image">
-        </div>
-        <div class="header-info">
-            <h1>Paul Khayet</h1>
-            <p>Email: khayet.paul@gmail.com</p>
-            <p>Phone: (916) 425-8520</p>
-            <p><img src="resources/icons/location.png" alt="Location Icon" class="location-icon">Irvine, California</p>
-            <a href="resources/pdfs/PaulKhayetWebsiteResume.pdf" download>DOWNLOAD RESUME</a>
-            <p><a href="https://www.linkedin.com/in/paul-khayet/" target="_blank"><img src="resources/icons/linkedin.png" alt="linkedin Icon" class="social-icons"></a>
-                <a href="https://github.com/paulkhayet" target="_blank"><img src="resources/icons/github-logo.png" alt="github Icon" class="social-icons"></a></p>
-        </div>
-    </header>
 
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Paul Khayet Resume</title>
+    <link rel="icon" href="resources/images/Logo.png" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900&display=swap"
+        rel="stylesheet" />
+</head>
+
+<header>
+    <div class="profile-container">
+        <img src="resources/images/SmallProfile.jpeg" alt="Profile Image" class="profile-image" />
+    </div>
+    <div class="header-info">
+        <h1>Paul Khayet</h1>
+        <p>Email: khayet.paul@gmail.com</p>
+        <p>Phone: (916) 425-8520</p>
+        <p>
+            <img src="resources/icons/location.png" alt="Location Icon" class="location-icon" />Irvine, California
+        </p>
+        <a href="resources/pdfs/PaulKhayetWebsiteResume.pdf" download>DOWNLOAD RESUME</a>
+        <p>
+            <a href="https://www.linkedin.com/in/paul-khayet/" target="_blank"><img src="resources/icons/linkedin.png"
+                    alt="linkedin Icon" class="social-icons" /></a>
+            <a href="https://github.com/paulkhayet" target="_blank"><img src="resources/icons/github-logo.png"
+                    alt="github Icon" class="social-icons" /></a>
+        </p>
+    </div>
+</header>
+
+<body>
     <div class="content">
         <div class="tabs">
-            <button class="tab-link active" onclick="openTab(event, 'resume')"><b>Resume</b></button>
-            <button class="tab-link" onclick="openTab(event, 'final-report')"><b>Internships</b></button>
-            <button class="tab-link" onclick="openTab(event, 'how-to')"><b>Projects</b></button>
+            <button class="tab-link active" onclick="openTab(event, 'resume')">
+                <b>Resume</b>
+            </button>
+            <button class="tab-link" onclick="openTab(event, 'final-report')">
+                <b>Internships</b>
+            </button>
+            <button class="tab-link" onclick="openTab(event, 'how-to')">
+                <b>Projects</b>
+            </button>
         </div>
 
         <div id="resume" class="tab-content active">
@@ -50,11 +66,21 @@
                     <p>Company: Expedia Group</p>
                     <p>Timeframe: June 2023 - September 2023</p>
                     <ul>
-                        <li>Collaborated with a team of 5 to design, develop, and deploy an automated cloud invoice processing system for VRBO,
-                            responsible for transferring ~$1.7 Billion per year within the USD jurisdiction</li>
-                        <li>Mastered AWS tools (Lambda, S3, SES, etc.) to complete the project, despite having no prior experience</li>
-                        <li>Spearheaded the implementation of an error processing system utilizing SQS retries and SES email notifications,
-                            safeguarding 44 separate data entries from errors</li>
+                        <li>
+                            Collaborated with a team of 5 to design, develop, and deploy an
+                            automated cloud invoice processing system for VRBO, responsible
+                            for transferring ~$1.7 Billion per year within the USD
+                            jurisdiction
+                        </li>
+                        <li>
+                            Mastered AWS tools (Lambda, S3, SES, etc.) to complete the
+                            project, despite having no prior experience
+                        </li>
+                        <li>
+                            Spearheaded the implementation of an error processing system
+                            utilizing SQS retries and SES email notifications, safeguarding
+                            44 separate data entries from errors
+                        </li>
                     </ul>
                 </div>
                 <div class="section-content">
@@ -62,10 +88,19 @@
                     <p>Company: Solidigm</p>
                     <p>Timeframe: June 2022 - May 2023</p>
                     <ul>
-                        <li>Engineered a system for managing time allocation of server throughout all of Solidigms B2B operations</li>
-                        <li>Deployed functionality that displays server availability, hardware, and OS allowing for a more streamlined reservation system
-                            for 24+ servers</li>
-                        <li>Updated and configured over 45 petabytes worth of SSD samples to meet corporate clients needs</li>
+                        <li>
+                            Engineered a system for managing time allocation of server
+                            throughout all of Solidigms B2B operations
+                        </li>
+                        <li>
+                            Deployed functionality that displays server availability,
+                            hardware, and OS allowing for a more streamlined reservation
+                            system for 24+ servers
+                        </li>
+                        <li>
+                            Updated and configured over 45 petabytes worth of SSD samples to
+                            meet corporate clients needs
+                        </li>
                     </ul>
                 </div>
             </section>
@@ -77,18 +112,30 @@
                     <p>Role: Motor Team Lead</p>
                     <p>Timeframe: December 2021 - June 2023</p>
                     <ul>
-                        <li>Led a team of 7 in the integration of electric motor components, ensuring seamless collaboration and communication between
-                            hardware components</li>
-                        <li>Fine-tuned MCU (Motor Control Unit) software to optimize efficiency, resulting in a 67.7% reduction in energy usage by
-                            lowering power and decreasing acceleration</li>
+                        <li>
+                            Led a team of 7 in the integration of electric motor components,
+                            ensuring seamless collaboration and communication between
+                            hardware components
+                        </li>
+                        <li>
+                            Fine-tuned MCU (Motor Control Unit) software to optimize
+                            efficiency, resulting in a 67.7% reduction in energy usage by
+                            lowering power and decreasing acceleration
+                        </li>
                     </ul>
 
                     <h3>UC Irvine Hillel Foundation</h3>
                     <p>Role: Board Member</p>
                     <p>Timeframe: February 2022 - June 2023</p>
                     <ul>
-                        <li>Orchestrated Shabbat dinners for 20-40 attendees, managed transportation and catering to elevate community engagement</li>
-                        <li>Planned and executed 6 school events alongside board members, creating a vibrant and inclusive atmosphere</li>
+                        <li>
+                            Orchestrated Shabbat dinners for 20-40 attendees, managed
+                            transportation and catering to elevate community engagement
+                        </li>
+                        <li>
+                            Planned and executed 6 school events alongside board members,
+                            creating a vibrant and inclusive atmosphere
+                        </li>
                     </ul>
                 </div>
             </section>
@@ -96,52 +143,76 @@
             <section>
                 <h2>Technical Skills</h2>
                 <div class="section-content">
-                    <p><b>Programming Languages:</b> Java, Python, C++, C, SQL, Verilog, HTML/CSS</p>
-                    <p><b>Tools/Concepts:</b> Agile Methodologies, Scrum, Git, VIM, IntelliJ, SSH, RESTful API, Splunk, Visual Studio, Microsoft 365, Docker</p>
+                    <p>
+                        <b>Programming Languages:</b> Java, Python, C++, C, SQL, Verilog,
+                        HTML/CSS
+                    </p>
+                    <p>
+                        <b>Tools/Concepts:</b> Agile Methodologies, Scrum, Git, VIM,
+                        IntelliJ, SSH, RESTful API, Splunk, Visual Studio, Microsoft 365,
+                        Docker
+                    </p>
                     <p><b>AWS Systems:</b> Lambda, S3, SQS, SES, IAM, CloudFormation</p>
                 </div>
             </section>
         </div>
 
-        <div id="final-report" class="tab-content" style="display:none">
+        <div id="final-report" class="tab-content" style="display: none">
             <h2>Expedia Internship Final Report</h2>
-            
-            <object class="pdf" 
-                data="resources/pdfs/Expedia.pdf"
-                width="100%"
-                height="500px">
-            </object>
+            <object class="pdf" data="resources/pdfs/Expedia.pdf" width="100%" height="50%"></object>
             <h2>Solidigm Internship Final Report</h2>
-            <object class="pdf" 
-                data="resources/pdfs/Solidigm.pdf"
-                width="100%"
-                height="500px">
-            </object>
+            <object class="pdf" data="resources/pdfs/Solidigm.pdf" width="100%" height="50%"></object>
         </div>
-        <div class="card-container">
-        <div id="how-to" class="tab-content" style="display:none">
+        <div id="how-to" class="tab-content" style="display: none">
             <h1>Projects</h1>
-            <div class="card">
-                <div class="header">
-                    <img src="resources/images/Logo.png" alt="Project Logo" class="card-icon">
-                    <span class="project-name">Resume Website</span>
-                </div>
-                <p class="description">Made a website to display my skills</p>
-                <div class="links">
-                    <a href="https://github.com/paulkhayet/resumewebsite" target="_blank">
-                        <img src="resources/icons/githubblack.png" alt="GitHub Logo" class="icon"> GitHub Repo
-                    </a>
-                    <div class="server-info">
-                        <img src="resources/icons/server.png" alt="Server Icon" class="icon"> Azure static webpage
+            <div class="card-container">
+                <div class="card">
+                    <div class="header">
+                        <img src="resources/images/Logo.png" alt="Project Logo" class="card-icon" />
+                        <span class="project-name">Resume Website</span>
                     </div>
-                    <div class="tech-info">
-                        <img src="resources/icons/coding.png" alt="Coding Icon" class="icon"> HTML/CSS
+                    <p class="description">Made a website to self-teach HTML and CSS</p>
+                    <div class="links">
+                        <a href="https://github.com/maherthomsi/PetrDropApplication" target="_blank">
+                            <img src="resources/icons/githubblack.png" alt="GitHub Logo" class="icon" />
+                            GitHub Repo
+                        </a>
+                        <div class="server-info">
+                            <img src="resources/icons/server.png" alt="Server Icon" class="icon" />
+                            Azure static webpage
+                        </div>
+                        <div class="tech-info">
+                            <img src="resources/icons/coding.png" alt="Coding Icon" class="icon" />
+                            HTML/CSS
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="header">
+                        <img src="resources/icons/petr.png" alt="Petr Logo" class="card-icon" />
+                        <span class="project-name">Petr Drop App</span>
+                    </div>
+                    <p class="description">My senior design project that helped facilitate community events surrounding
+                        "Petr" sticker at UCI</p>
+                    <div class="links">
+                        <a href="https://github.com/paulkhayet/resumewebsite" target="_blank">
+                            <img src="resources/icons/githubblack.png" alt="GitHub Logo" class="icon" />
+                            GitHub Repo
+                        </a>
+                        <div class="server-info">
+                            <img src="resources/icons/server.png" alt="Server Icon" class="icon" />
+                            Firebase
+                        </div>
+                        <div class="tech-info">
+                            <img src="resources/icons/coding.png" alt="Coding Icon" class="icon" />
+                            Kotlin
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
+    </div>
 
     <script>
         function openTab(evt, tabName) {
@@ -159,4 +230,5 @@
         }
     </script>
 </body>
+
 </html>
