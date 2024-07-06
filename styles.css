@@ -25,7 +25,7 @@ header {
 }
 
 .pdf{
-    margin-bottom:40px;
+    margin-bottom:20px;
 }
 
 a:link {
@@ -150,7 +150,7 @@ header h1 {
 section {
     background-color: rgba(0, 0, 0, 0.5);
     padding: 20px;
-    margin-top: 30px;
+    margin-top: 20px;
     margin-bottom: 20px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     border-radius: 10px;
@@ -166,6 +166,7 @@ section h2 {
     margin-top: 0;
     color: white;
 }
+
 
 
 .section-content h3 {
@@ -189,9 +190,9 @@ section h2 {
     color: white;
 }
 
-.tab-content h1{
+/* .tab-content h1{
     margin-top: 40px;
-}
+} */
 
 .card {
     background-color: #ffffff;
