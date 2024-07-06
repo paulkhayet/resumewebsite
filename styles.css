@@ -80,7 +80,7 @@ header h1 {
 }
 
 .description{
-    color:grey;
+    color:#333;
     margin-top: 0px;
 }
 
@@ -200,7 +200,7 @@ section h2 {
 } */
 
 .card {
-    background-color: #ffffff;
+    background-color: #7CB9E8;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     width: 300px;
