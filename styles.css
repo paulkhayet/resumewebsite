@@ -74,6 +74,11 @@ header h1 {
     vertical-align: -2px;
 }
 
+.internicon{
+    height:32px;
+    vertical-align: -6px;
+}
+
 .description{
     color:grey;
     margin-top: 0px;
