@@ -69,6 +69,10 @@ header h1 {
     vertical-align: -10px;
 }
 
+.ios-app-icon{
+    border-radius: 22%;
+}
+
 .icon{
     height:16px;
     vertical-align: -2px;

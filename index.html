@@ -38,10 +38,10 @@
 <body>
     <div class="content">
         <div class="tabs">
-            <button class="tab-link active" onclick="openTab(event, 'resume')">
+            <!-- <button class="tab-link active" onclick="openTab(event, 'resume')">
                 <b>Resume</b>
-            </button>
-            <button class="tab-link" onclick="openTab(event, 'final-report')">
+            </button> -->
+            <button class="tab-link active" onclick="openTab(event, 'final-report')">
                 <b>Experience</b>
             </button>
             <button class="tab-link" onclick="openTab(event, 'how-to')">
@@ -49,7 +49,7 @@
             </button>
         </div>
 
-        <div id="resume" class="tab-content active">
+        <!-- <div id="resume" class="tab-content active">
             <div id="box">
                 <section>
                     <h2>Education</h2>
@@ -176,9 +176,15 @@
                     </div>
                 </section>
             </div>
-        </div>
+        </div> -->
 
-        <div id="final-report" class="tab-content" style="display: none">
+        <div id="final-report" class="tab-content active">
+            <h2>Education</h2>
+            <section>
+                <h2>University of California Irvine</h2>
+                <p>Degree: BS in Computer Engineering</p>
+                <p>Dates: 2021 - 2024</p>
+            </section>
             <h2>Air Canada</h2>
             <section>
                 <h2>
@@ -240,7 +246,7 @@
         <div id="how-to" class="tab-content" style="display: none">
             <h1>Projects</h1>
             <div class="card-container">
-                <div class="card">
+                <!-- <div class="card">
                     <div class="header">
                         <img src="resources/images/favicon-1.png" alt="Project Logo" class="card-icon" />
                         <span class="project-name">Arethemarketsup.com</span>
@@ -269,8 +275,8 @@
                             Next.js/MongoDB
                         </div>
                     </div>
-                </div>
-                <div class="card">
+                </div> -->
+                <!-- <div class="card">
                     <div class="header">
                         <img src="resources/icons/calculator.png" alt="Project Logo" class="card-icon" />
                         <span class="project-name">Simple Calculator</span>
@@ -297,6 +303,32 @@
                         <div class="tech-info">
                             <img src="resources/icons/coding.png" alt="Coding Icon" class="icon" />
                             HTML/CSS/Javascript
+                        </div>
+                    </div>
+                </div> -->
+                <div class="card">
+                    <div class="header">
+                        <img src="resources/images/SimplestCalorieTracker.png" alt="The Simplest Calorie Tracker App Icon"
+                            class="card-icon ios-app-icon" />
+                        <span class="project-name">The Simplest Calorie Tracker</span>
+                    </div>
+                    <p class="description">iOS app for easy daily calorie tracking</p>
+                    <div class="links">
+                        <div>
+                            <a href="https://apps.apple.com/us/app/the-simplest-calorie-tracker/id6761067469" target="_blank">
+                                <img src="resources/icons/link.png" alt="Link Icon" class="icon" />
+                                App Store Page
+                            </a>
+                        </div>
+                        <div>
+                            <a href="https://github.com/paulkhayet/CalorieTracker" target="_blank">
+                                <img src="resources/icons/githubblack.png" alt="GitHub Logo" class="icon" />
+                                GitHub Repo
+                            </a>
+                        </div>
+                         <div class="tech-info">
+                            <img src="resources/icons/coding.png" alt="Coding Icon" class="icon" />
+                            Swift
                         </div>
                     </div>
                 </div>
